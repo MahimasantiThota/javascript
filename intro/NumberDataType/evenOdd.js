@@ -1,6 +1,6 @@
 function onClickNumber() {
     debugger;
-    var number = Number(document.getElementById("inputNumber").value);
+    var number = Number(document.getElementById("txtinputNumber").value);
     var result = document.getElementById("pResult");
 
     if (number % 2 == 0) {
