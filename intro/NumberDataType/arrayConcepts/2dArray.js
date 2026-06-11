@@ -1,7 +1,7 @@
 var nandGate = [
-    [0, 0, 0],
+    [1, 5, 0],
     [0, 1, 0],
-    [1, 0, 0],
+    [1, 3, 6],
     [1, 1, 1]
 ];
 function onClick2dArray() {
