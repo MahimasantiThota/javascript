@@ -1,6 +1,6 @@
 function checkData() {
-    let age = parseInt(document.getElementById("age").value);
-    let gender = document.getElementById("gender").value.toLowerCase();
+    let age = document.getElementById("age").value;
+    let gender = document.getElementById("gender").value;
 
     let result = "";
 
@@ -26,6 +26,5 @@ function checkData() {
     } else {
         result += "Condition not matched.";
     }
-
     document.getElementById("output").innerHTML = result;
 }
