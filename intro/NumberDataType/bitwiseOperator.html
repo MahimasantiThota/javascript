@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Increment, Decrement & Comparison</title>
-    <script src="operators.js"></script>
+    <title>OR Operator Example</title>
 </head>
 <body>
 
-    <h2>operators</h2>
+<div class="container">
+    <h2>OR Operator Using Branches</h2>
 
-    <label>Age:</label>
-    <input type="number" id="branch" value="CSE"><br>
+    <label>Select Branch:</label>
+    <select id="branch">
+        <option value="">--Select--</option>
+        <option value="CSE">CSE</option>
+        <option value="AIML">AIML</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+    </select>
 
-    <label>Gender:</label>
-    <input type="text" id="branch" value="AI&ML"><br>
-   
-    <button onclick="checkData()">Check</button>
+    <button onclick="checkBranch()">Check</button>
 
-    <h3>Result:</h3>
-    <p id="output"></p>
-</html>
-    </body>
+    <h3 id="result"></h3>
+</div>
+
+<script src="bitwiseOperator.js"></script>
+
+</body>
 </html>
