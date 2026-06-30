@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function onClickNumber() {
+            debugger;
+            var InputNum = document.getElementById("txtNum").value;
+            var result = Number(InputNum);
+            alert(result);
+        }
+        function onClickParseInt () {
+            debugger;
+            var InputNum = document.getElementById("txtNum").value;
+            var result = parseInt(InputNum);
+            alert(result);
+        }
+        function onClickParseFloat() {
+            debugger;
+            var InputNum = document.getElementById("txtNum").value;
+            var result = parseFloat(InputNum);
+            alert(result);
+
+        }
+    </script>
+</head>
+<body>
+    <h1>string</h1>
+    <label id="lblNum">Input Number</label>
+    <input id="txtNum" type="text"><br>
+    <button id="btnNumber" onClick="onClickNumber()">Number</button>
+    <button id="btnParseInt" onClick="onClickParseInt()">parseInt</button>
+    <button id="btnParseFloat" onClick="onClickParseFloat()">ParseFloat</button>
+
+</body>
+</html>
